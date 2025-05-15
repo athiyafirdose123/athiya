@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    // Print marks
+    
     printf("\nMarks of students:\n");
     for (int i = 0; i < 3; i++) {
         printf("Student %d: ", i + 1);
