@@ -12,7 +12,7 @@
 -int main() {
     struct student s
     
-   //input student details 
+   
     printf("enter student name:");
     fgets(s.name,sizeof(s.name).stin);
 
