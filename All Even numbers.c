@@ -9,6 +9,6 @@ void print_even(int arr[], int size) {
 
 int main() {
     int nums[] = {1, 4, 7, 8, 10};
-    print_even(nums, 5); // Output: 4 8 10
+    print_even(nums, 5); 
     return 0;
 }
