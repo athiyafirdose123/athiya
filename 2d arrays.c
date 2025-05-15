@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int marks[3][3]; // 2D array for 3 students and 3 subjects
+    int marks[3][3];
 
-    // Input marks
+    
     printf("Enter marks for 3 students in 3 subjects:\n");
     for (int i = 0; i < 3; i++) {
         printf("Student %d:\n", i + 1);
