@@ -5,6 +5,6 @@ void greet() {
 }
 
 int main() {
-    greet(); // Now it prints "Hello!"
+    greet(); 
     return 0;
 }
