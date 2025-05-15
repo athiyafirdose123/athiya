@@ -1,5 +1,3 @@
 def square(x):
-    return x * x
-
-# Example usage
+    return 0;
 print(square(5))
