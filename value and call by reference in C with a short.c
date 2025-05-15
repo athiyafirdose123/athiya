@@ -5,6 +5,6 @@ void modify(int x) {
 int main() {
     int a = 5;
     modify(a);
-    printf("%d", a); // Output: 5
+    printf("%d", a); 
     return 0;
 }
