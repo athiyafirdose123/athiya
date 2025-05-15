@@ -8,6 +8,6 @@ float area_of_circle(float radius) {
 int main() {
     float r = 5.0;
     float area = area_of_circle(r);
-    printf("Area = %.2f", area); // Output: Area = 78.54
+    printf("Area = %.2f", area); 
     return 0;
 }
