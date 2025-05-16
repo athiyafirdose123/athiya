@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int sridevi(int a ,int b)
 {
     printf(" athiya  ");
@@ -7,7 +6,6 @@ int sridevi(int a ,int b)
     printf(" 18 ");
     printf( " 7795747559 ");
     return a*b;
- 
 }
 int main()
 {
