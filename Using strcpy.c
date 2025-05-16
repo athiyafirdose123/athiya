@@ -5,12 +5,9 @@ int main() {
     char source[100], destination[100];
 
     printf("Enter a string: ");
-    fgets(source, sizeof(source), stdin);
-
-    // Remove newline character if present
+    fgets(source, sizeof(source), s
     source[strcspn(source, "\n")] = '\0';
 
-    // Copy the string
     strcpy(destination, source);
 
     printf("Copied string: %s\n", destination);
