@@ -7,19 +7,15 @@ int isPalindrome(char str[]) {
     int end = strlen(str) - 1;
 
     while (start < end) {
-        // Skip non-alphanumeric characters (optional)
         while (!isalnum(str[start]) && start < end) start++;
         while (!isalnum(str[end]) && start < end) end--;
-
-        // Compare characters (case-insensitive)
         if (tolower(str[start]) != tolower(str[end])) {
-            return 0; // Not a palindrome
+            return 0; 
         }
         start++;
         end--;
     }
-
-    return 1; // Palindrome
+    return 1; 
 }
 
 int main() {
