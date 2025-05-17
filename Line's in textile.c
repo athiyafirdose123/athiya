@@ -4,8 +4,6 @@ int main() {
     FILE *file;
     char ch;
     int lineCount = 0;
-
-    // Open the file in read mode
     file = fopen("input.txt", "r");
 
     if (file == NULL) {
